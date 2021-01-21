@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C// DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>HTML Tutorial on Forms</title>
+	<link rel="stylesheet" type="text/css" href="Forms.css"/>	
+</head>
+
+<body id="body">
+
+	<h1>Examples of Forms</h1>
+	
+	<div id="Nav">
+<ul>
+	<li><a href = "TitlePage.html">Home Page</a></li>
+	<li><a href= "HtmlBasics.html">Basics of HTML</a></li>
+		<li><a href= "CSSBasics.html">Basics of CSS</a></li>
+			<li><a href= "FormOverview.html">Overview of Forms</a></li>
+				<li><a href= "FormExample.html">Examples of Forms</a></li>
+	</ul>
+	</div>
+	
+	<div id="Formdiv">
+<form method="post" action="http://a.server.com/script">
+<fieldset>
+<legend>Forms</legend>
+
+
+
+<fieldset> <!--code i used was from the lecture notes-->
+<legend>Name:</legend>
+  First name:<br/>
+  <input type="text" name="firstname" /><br/>
+  Last name:<br/>
+  <input type="text" name="lastname" /> <br/>
+  Username: <br/>
+  <input type="text" name="username" /> <br/>
+  Password: <br/>
+  <input type="password" name="password" />
+  
+  <br/>
+  
+  <p>This is the code:</p> 
+  
+  &lt;fieldset&gt; <br/>
+&lt;legend&gt;Name:&lt;/legend&gt; <br/>
+  First name:&lt;br&gt; <br/>
+  &lt;input type="text" name="firstname" &gt;&lt;br&gt; <br/>
+  Last name:&lt;br&gt; <br/>
+  &lt;input type="text" name="lastname" &gt; &lt;br&gt; <br/>
+  Username: &lt;br&gt; <br/>
+  &lt;input type="text" name="username" /&gt; <br/>
+  Password: &lt;br&gt; <br/>
+  &lt;input type="password" name="password" /&gt; <br/>
+  &lt;/fieldset&gt; <br/>
+  
+  </fieldset>
+  
+
+<fieldset> <!--code i used was from the lecture notes-->
+<legend> Gender: </legend>
+<input type="radio" name="gender" value="male"/> Male<br/>
+  <input type="radio" name="gender" value="female"/> Female<br/>
+  <input type="radio" name="gender" value="other"/> Other
+  
+  <br/>
+  
+  <p>This is the code:</p>
+  
+  &lt;fieldset&gt; <br/>
+&lt;legend&gt; Gender: &lt;/legend&gt; <br/>
+  &lt;input type="radio" name="gender" value="male" checked&gt; Male&lt;br&gt; <br/>
+  &lt;input type="radio" name="gender" value="female"&gt; Female&lt;br&gt; <br/>
+  &lt;input type="radio" name="gender" value="other"&gt; Other <br/>
+  &lt;/fieldset&gt; <br/>
+  
+  </fieldset>
+
+<!--code i used was from the lecture notes-->
+<fieldset>
+<legend>Choose ONE of the Following:</legend>
+<input type="radio" name="choice" value="A"/> A 
+<input type="radio" name="choice" value="B"/> B
+<input type="radio" name="choice" value="C"/> C
+
+<br/>
+  <p>This is the code:</p>
+
+&lt;fieldset&gt; <br/>
+&lt;legend&gt;Choose ONE of the Following:&lt;/legend&gt; <br/>
+&lt;input type="radio" name="choice" value="A"/&gt; A <br/>
+&lt;input type="radio" name="choice" value="B"/&gt; B <br/>
+&lt;input type="radio" name="choice" value="C"/&gt; C <br/>
+&lt;/fieldset&gt; <br/>
+&lt;/p&gt; <br/>
+
+</fieldset>
+  <!--code i used was from the lecture notes-->
+
+<fieldset>
+<legend>Choose ONE of the Following:</legend>
+<input type="checkbox" name="A" value="yes"/> A 
+<input type="checkbox" name="B" value="yes"/> B
+<input type="checkbox" name="C" value="yes"/> C
+
+<br/>
+  <p>This is the code:</p>
+  
+  &lt;fieldset&gt; <br/>
+&lt;legend&gt;Choose ONE of the Following:&lt;/legend&gt; <br/>
+&lt;input type="checkbox" name="A" value="yes"/&gt; A  <br/>
+&lt;input type="checkbox" name="B" value="yes"/&gt; B <br/>
+&lt;input type="checkbox" name="C" value="yes"/&gt; C <br/>
+&lt;/fieldset&gt; <br/>
+
+
+</fieldset>
+
+<fieldset>
+<legend>Choose ONE of the Following:</legend>
+<select name="drop-down">
+<option value="None" selected="selected"> Please Select</option> 
+<option value="A"> Choose A</option>
+<option value="B"> Choose B</option>
+<option value="C"> Choose C</option>  <!--code i used was from the lecture notes-->
+</select>
+
+<br/>
+  <p>This is the code:</p>
+
+&lt;fieldset&gt; <br/>
+&lt;legend&gt;Choose ONE of the Following:&lt;/legend&gt; <br/>
+&lt;select name="drop-down"&gt; <br/>
+&lt;option value="None" selected="selected"&gt; Please Select&lt;/option&gt; <br/>
+&lt;option value="A"&gt; Choose A&lt;/option&gt; <br/>
+&lt;option value="B"&gt; Choose B&lt;/option&gt; <br/>
+&lt;option value="C"&gt; Choose C&lt;/option&gt; <br/>
+&lt;/select&gt; <br/>
+&lt;/fieldset&gt; <br/>
+
+
+</fieldset>
+
+<!--code i used was from the lecture notes-->
+<fieldset>
+<legend>Add some thoughts of your own</legend>
+<textarea name="free-text" rows="4" cols="20"></textarea>
+
+<br/>
+  <p>This is the code:</p>
+
+&lt;fieldset&gt; <br/>
+&lt;legend&gt;Add some thoughts of your own&lt;/legend&gt;<br/>
+&lt;textarea name="free-text" rows="4" cols="20"&gt;&lt;/textarea&gt; <br/>
+&lt;/fieldset&gt; <br/>
+
+
+</fieldset>
+
+<fieldset>
+<legend>Your Choices</legend>
+Choose ONE of the Following: 
+<input type="radio" name="choice" value="A" /> Apple
+<input type="radio" name="choice" value="B" /> Banana
+
+<p>This is the code:</p>
+
+&lt;fieldset&gt; <br/>
+&lt;legend&gt;Your Choices&lt;/legend&gt; <br/>		<!--code i used was from the lecture notes-->
+Choose ONE of the Following: <br/>
+&lt;input type="radio" name="choice" value="A" /&gt; Apple <br/>
+&lt;input type="radio" name="choice" value="B" /&gt; Banana <br/>
+&lt;/fieldset&gt; <br/>
+
+
+</fieldset>
+
+
+<br/>
+
+
+<fieldset>
+<legend>Javascript Button</legend>			<!--code i used was from W3Schools-->
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+
+<br/>
+<br/>
+
+&lt;fieldset&gt; <br/>
+&lt;legend&gt;Javascript Button&lt;/legend&gt; <br/>		
+&lt;button type="button" <br/>
+onclick="document.getElementById('demo').innerHTML = Date()"&gt; <br/>
+Click me to display Date and Time.&lt;/button&gt; <br/>
+&lt;p id="demo"&gt;;&lt;/p&gt;<br/>
+&lt;/fieldset&gt; <br/>
+
+
+
+<p id="demo"></p>
+
+</fieldset>
+
+
+<p> <input type="submit" value="Submit this Info"/></p>
+
+<p>This is the code:</p>
+
+&lt;p&gt; &lt;input type="submit" value="Submit this Info"/&gt;&lt;/p&gt;
+</fieldset>
+</form>
+</div>
+
+	</body>
+		</html>
