@@ -1,0 +1,163 @@
+/**{padding: 0;
+	margin: 0;
+	}*/
+
+
+h1{ font-family: "Lucida Sans Unicode";
+	color: #8F8888;
+	background-image: url("https://internal.cs.ncl.ac.uk/modules/2015-16/csc1026/flags/css/70-flags.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	clear: both;
+	padding-top: 50px;
+	padding-left: 20px;
+	}
+
+h2{font-family: "Lucida Sans Unicode";
+	color:#8F8888;
+	background-image: url("https://internal.cs.ncl.ac.uk/modules/2015-16/csc1026/flags/css/20x12-dkgrey.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 22px;
+	padding-top: 2px;
+	}
+	
+h3{font-family: "Lucida Sans Unicode";
+	color:#8F8888;
+	background-image: url("https://internal.cs.ncl.ac.uk/modules/2015-16/csc1026/flags/css/20x8-dkgrey.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 22px;
+	}
+
+html {background-color: #8F8888;}
+	
+body{	
+	background-color: #ffffff;
+	max-width: 960px;
+	min-width: 450px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+	
+	
+p { font-family: "Palatino Linotype";
+	padding-left:10px;}
+	
+#nav	{
+	background-color: #5D2C2C;
+		position: absolute;
+		top: 20px;
+		max-width: 960px;
+		height: 30px;
+		float: right;
+		padding-left: 471px;
+		margin:0px;
+		
+	}	
+
+#nav  > ul{	height: 50px;
+		margin: 0 auto;
+		padding:0;
+		display: inline; 
+		text-align: center;}	
+		
+#nav li a {display: block;
+	line-height: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+		
+#nav > ul > li {	list-style-type: none;
+		float: left;
+		padding: 0px;
+		
+		}
+		
+#nav > ul > li > ul {display: none;}
+				
+#nav > ul > li:hover > ul {display:block;
+				background-color: #5D2C2C;
+				list-style-type: none;
+				text-align:left;
+				padding:0;
+				margin:0;}
+				
+#dropdown {padding: 0px;}
+	
+#nav a:link {color:  #8F8888;
+		 text-decoration: none;}
+		
+#nav a:visited {color:  #8F8888;
+		 text-decoration: none;}
+		
+#nav a:hover {color:  #8F8888;
+		 text-decoration: none;}
+		
+#nav a:active {color:  #8F8888;
+		 text-decoration: none;}
+	
+#Intro{border-top: #5D2C2C solid 10px;
+		}
+	
+#Flickriver{background-image: url("https://internal.cs.ncl.ac.uk/modules/2015-16/csc1026/flags/css/420x370-box.png");
+		background-repeat: no-repeat;
+		padding: 25px;
+		margin: 20px;
+		max-width: 370px;
+		max-height: 320px;
+		float: right;}
+	
+#Hist{border-top: #5D2C2C solid 10px;
+		}
+	
+#video{background-image: url("https://internal.cs.ncl.ac.uk/modules/2015-16/csc1026/flags/css/460x320-box.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		padding: 20px;
+		max-width: 430px;
+		max-height: 280px;
+		text-align: center;
+		margin: 20px;
+		float: right;}
+		
+	
+#National{background-image: url("https://internal.cs.ncl.ac.uk/modules/2015-16/csc1026/flags/css/3-flags75.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right:350px;
+	clear:both;
+	border-top: #5D2C2C solid 10px;
+	}
+	
+#IMSF{border-top: #5D2C2C solid 10px;
+		}
+	
+#Letters{clear: both;
+			border-top: #5D2C2C solid 10px;
+			}
+
+.grid {display:inline-block;
+		padding-left: 5px;
+		padding-right: 5px;
+		margin-left: 15px;}
+		
+.grid img {border: black solid 1px;}
+
+
+.grid-number{display:inline-block;}
+
+
+	
+#Numbers{border-top: #5D2C2C solid 10px;
+	padding-top: 10px;
+		padding-bottom: 10px;}
+
+#footer{border-top: #5D2C2C solid 10px;
+		text-align: right;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		}
+	
+	
